@@ -1,4 +1,5 @@
-import 'package:bharat_erp/pages/request_for_assets.dart';
+import 'package:bharat_erp/pages/asset_name_list.dart';
+import 'package:bharat_erp/pages/pending_spare_part.dart';
 
 import 'package:flutter/material.dart';
 
@@ -34,6 +35,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: RequestForAssets());
+        home: const AssetName());
   }
 }
