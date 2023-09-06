@@ -1,4 +1,5 @@
 import 'package:bharat_erp/pages/service_backlog_trend.dart';
+import 'package:bharat_erp/pages/service_requst_trend.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,6 +34,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const ServiceBacklogTrends());
+        home: const ServiceRequestTrend());
   }
 }
