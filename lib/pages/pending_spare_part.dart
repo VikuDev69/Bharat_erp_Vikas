@@ -1,4 +1,6 @@
+import 'package:bharat_erp/todays%20task/asset_request.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 
 class PendingSpareParts extends StatelessWidget {
   const PendingSpareParts({super.key});
@@ -21,7 +23,9 @@ class PendingSpareParts extends StatelessWidget {
           ),
           backgroundColor: Colors.white,
           leading: IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.back();
+              },
               icon: const Icon(
                 Icons.arrow_back_sharp,
                 color: Color(0xFF9C00B1),
@@ -63,7 +67,9 @@ class PendingSpareParts extends StatelessWidget {
               ),
               const SizedBox(width: 5),
               IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.to(AssetRequest());
+                  },
                   icon: const Icon(
                     Icons.add_circle_outline_rounded,
                     color: Color(0xff076DDC),
